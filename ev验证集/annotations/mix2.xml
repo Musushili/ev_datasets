@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+  <filename>mix2.jpg</filename>
+  <object_num>1</object_num>
+  <size>
+    <width>1280</width>
+    <height>720</height>
+  </size>
+  <object>
+    <name>bike</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>740</xmin>
+      <ymin>226</ymin>
+      <xmax>904</xmax>
+      <ymax>530</ymax>
+    </bndbox>
+  </object>
+</annotation>
