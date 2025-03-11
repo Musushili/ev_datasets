@@ -5,11 +5,11 @@ from tqdm import tqdm
 
 def voc_to_coco():
     # 输入输出路径配置
-    images_dir = r'C:\Users\Winona.Shao\GP\ev_datasets\ev\trainval_images'
-    xml_dir = r'C:\Users\Winona.Shao\GP\ev_datasets\ev\pascal_voc_trainval'
-    output_dir = r'C:\Users\Winona.Shao\GP\ev_datasets\ev\annotations'
+    images_dir = r'C:\Users\Winona.Shao\GP\ev_datasets\motorcycle\test_images'
+    xml_dir = r'C:\Users\Winona.Shao\GP\ev_datasets\motorcycle\pascal_voc_test'
+    output_dir = r'C:\Users\Winona.Shao\GP\ev_datasets\motorcycle\annotations'
     os.makedirs(output_dir, exist_ok=True)
-    output_json = os.path.join(output_dir, 'annotations_trainval.json')
+    output_json = os.path.join(output_dir, 'test.json')
 
     # 初始化COCO数据结构
     coco = {
