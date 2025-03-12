@@ -1,0 +1,25 @@
+<annotation>
+  <folder>images</folder>
+  <filename>2020(29).jpg</filename>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Electric-bicycle</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>591</xmin>
+      <ymin> 415</ymin>
+      <xmax> 1558 </xmax>
+      <ymax>969</ymax>
+    </bndbox>
+  </object>
+</annotation>
