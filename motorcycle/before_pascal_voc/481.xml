@@ -1,0 +1,26 @@
+<annotation>
+	<folder>电动车</folder>
+	<filename>481.jpg</filename>
+	<path>D:\数据集\电动车\481.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>750</width>
+		<height>563</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>电动车</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>67</xmin>
+			<ymin>42</ymin>
+			<xmax>663</xmax>
+			<ymax>491</ymax>
+		</bndbox>
+	</object>
+</annotation>

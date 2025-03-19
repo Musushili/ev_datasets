@@ -5,9 +5,9 @@ from tqdm import tqdm
 
 def voc_to_coco():
     # 输入输出路径配置
-    images_dir = r'C:\Users\Winona.Shao\GP\ev_datasets\ev\images'
-    xml_dir = r'C:\Users\Winona.Shao\GP\ev_datasets\ev\xml'
-    output_dir = r'C:\Users\Winona.Shao\GP\ev_datasets\ev\annotations'
+    images_dir = r'C:\Users\Winona.Shao\GP\ev_datasets\motorcycle\images'
+    xml_dir = r'C:\Users\Winona.Shao\GP\ev_datasets\motorcycle\pascal_voc'
+    output_dir = r'C:\Users\Winona.Shao\GP\ev_datasets\motorcycle\annotations'
     os.makedirs(output_dir, exist_ok=True)
     output_json = os.path.join(output_dir, 'annotation.json')
 
@@ -16,23 +16,23 @@ def voc_to_coco():
         "info": {
             "description": "EV Dataset",
             "version": "1.0",
-            "year": 2023,
+            "year": 2025,
             "contributor": "",
             "url": ""
         },
         "licenses": [],
         "categories": [
-            {"id": 1, "name": "motorcycle", "supercategory": ""},
-            {"id": 2, "name": "bike", "supercategory": ""}
+            {"id": 1, "name": "Electric-bicycle", "supercategory": ""}
         ],
         "images": [],
         "annotations": []
     }
 
+
     # 类别映射字典
     category_mapping = {
-        "motorcycle": "motorcycle",
-        "bike": "bike"
+        "motorcycle": "Electric-bicycle",
+        #"bike": "bike"
     }
 
     # 创建类别ID映射
